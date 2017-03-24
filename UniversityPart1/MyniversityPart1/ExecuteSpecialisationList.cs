@@ -12,7 +12,7 @@ namespace UniversityPart1
           static public string[] ExSpList(string[] str)
 
         {
-            string conStr = @"Data Source=.\SQLEXPRESS; Initial Catalog=University; Integrated Security=True;";
+            string conStr = @"Data Source=./SQLEXPRESS; Initial Catalog=University; Integrated Security=True;";
 
             using (SqlConnection connection = new SqlConnection(conStr))
             {

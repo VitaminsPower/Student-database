@@ -15,7 +15,7 @@ namespace UniversityPart1
     {
 
         //-------------------------------------------
-        public string conStr = @"Data Source=.\SQLEXPRESS; Initial Catalog=University; Integrated Security=True;";
+        public string conStr = @"Data Source=./SQLEXPRESS; Initial Catalog=University; Integrated Security=True;";
         //
 
         public string StFname, StLname, StLang, StSpec;  //
@@ -184,13 +184,30 @@ namespace UniversityPart1
                     using (SqlConnection connection = new SqlConnection(conStr))
 
                     {
-                        connection.Open();
 
-                        SqlCommand cmd = new SqlCommand(
-
-                            "INSERT INTO Students" +
+                       var commandStr = "INSERT INTO Students" +
                             "(FirstName, LastName, SpecialisationName, Language, Adress, PhoneNumber)" +
-                            "values ('" + StFname + "', '" + StLname + "', '" + StSpec + "', '" + StLang + "', '" + StAdress + "', '" + StPhoneNumber + "')", connection);
+                            "values (@StFname, @StLname, @StSpec, @StLang , @StAdress,  @StPhoneNumber)";
+
+                        //--------------------------------------------------------------------------
+
+                        connection.Open();
+                        SqlCommand cmd = new SqlCommand(commandStr, connection);
+
+                        //--------------------------------------------------------------------------
+
+                        cmd.Parameters.Add("@StFname", SqlDbType.VarChar).Value = StFname;
+
+                        cmd.Parameters.Add("@StLname", SqlDbType.VarChar).Value = StLname;
+
+                        cmd.Parameters.Add("@StSpec", SqlDbType.VarChar).Value = StSpec;
+
+                        cmd.Parameters.Add("@StLang", SqlDbType.VarChar).Value = StLang;
+
+                        cmd.Parameters.Add("@StAdress", SqlDbType.VarChar).Value = StAdress;
+
+                        cmd.Parameters.Add("@StPhoneNumber", SqlDbType.VarChar).Value = StPhoneNumber;
+                        //--------------------------------------------------------------------------
 
                         cmd.ExecuteNonQuery();
 

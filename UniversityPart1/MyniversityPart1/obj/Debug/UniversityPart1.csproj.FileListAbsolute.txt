@@ -7,3 +7,12 @@ C:\Users\Andrzei\Desktop\MyniversityPart1\MyniversityPart1\obj\Debug\Myniversity
 C:\Users\Andrzei\Desktop\MyniversityPart1\MyniversityPart1\bin\Debug\MyniversityPart1.exe.config
 C:\Users\Andrzei\Desktop\MyniversityPart1\MyniversityPart1\bin\Debug\MyniversityPart1.exe
 C:\Users\Andrzei\Desktop\MyniversityPart1\MyniversityPart1\bin\Debug\MyniversityPart1.pdb
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\bin\Debug\MyniversityPart1.exe.config
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\obj\Debug\MyniversityPart1.exe
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\obj\Debug\MyniversityPart1.pdb
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\bin\Debug\MyniversityPart1.exe
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\bin\Debug\MyniversityPart1.pdb
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\obj\Debug\UniversityPart1.csprojResolveAssemblyReference.cache
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\obj\Debug\UniversityPart1.RecrutmentForm.resources
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\obj\Debug\MyniversityPart1.Properties.Resources.resources
+C:\Users\Andrzei\Desktop\Student-database-master\UniversityPart1\MyniversityPart1\obj\Debug\UniversityPart1.csproj.GenerateResource.Cache
